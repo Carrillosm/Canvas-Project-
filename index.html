@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Project</title>
+</head>
+<body>
+    <div style ="text-align:center";>
+        <canvas id="myCanvas" width="1000" height="820" style="border:1px solid #000000;"> </canvas>
+    
+    
+    </div>
+    
+
+  <script>
+      //Red Circle//
+     var c = document.getElementById("myCanvas");
+     var ctx = c.getContext("2d");
+     ctx.beginPath();
+     ctx.arc(600,510,120,0,2*Math.PI);
+     ctx.stroke();
+     ctx.fillStyle = 'red';
+     ctx.fill();
+
+
+
+
+    //Line//
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(700,573);
+    ctx.lineTo(500,445);
+    ctx.stroke();
+
+
+
+    //black head//
+    var c = document.getElementById('myCanvas');
+    var ctx = c.getContext('2d');
+    ctx.beginPath();
+    ctx.arc(460,420,55,0*Math.PI,2*Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = 'black';
+     ctx.fill();
+
+
+
+
+
+    //spots1//
+     var c = document.getElementById("myCanvas");
+     var ctx = c.getContext("2d");
+     ctx.beginPath();
+     ctx.arc(560,430,20,0,2*Math.PI);
+     ctx.stroke();
+     ctx.fillStyle = 'black';
+     ctx.fill();
+
+    //spots2//
+     var c = document.getElementById("myCanvas");
+     var ctx = c.getContext("2d");
+     ctx.beginPath();
+     ctx.arc(650,430,20,0,2*Math.PI);
+     ctx.stroke();
+     ctx.fillStyle = 'black';
+     ctx.fill();
+
+     //spots3//
+     var c = document.getElementById("myCanvas");
+     var ctx = c.getContext("2d");
+     ctx.beginPath();
+     ctx.arc(690,520,20,0,2*Math.PI);
+     ctx.stroke();
+     ctx.fillStyle = 'black';
+     ctx.fill();
+
+     //spot4//
+     var c = document.getElementById("myCanvas");
+     var ctx = c.getContext("2d");
+     ctx.beginPath();
+     ctx.arc(510,510,20,0,2*Math.PI);
+     ctx.stroke();
+     ctx.fillStyle = 'black';
+     ctx.fill();
+    //spot5//
+     var c = document.getElementById("myCanvas");
+     var ctx = c.getContext("2d");
+     ctx.beginPath();
+     ctx.arc(550,590,20,0,2*Math.PI);
+     ctx.stroke();
+     ctx.fillStyle = 'black';
+     ctx.fill();
+
+     //spot6//
+     var c = document.getElementById("myCanvas");
+     var ctx = c.getContext("2d");
+     ctx.beginPath();
+     ctx.arc(630,590,20,0,2*Math.PI);
+     ctx.stroke();
+     ctx.fillStyle = 'black';
+     ctx.fill();
+
+     //spot7//
+     var c = document.getElementById("myCanvas");
+     var ctx = c.getContext("2d");
+     ctx.beginPath();
+     ctx.arc(600,510,20,0,2*Math.PI);
+     ctx.stroke();
+     ctx.fillStyle = 'black';
+     ctx.fill();
+
+
+
+
+     //leg1//
+     var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(680,420);
+    ctx.lineTo(700,400);
+    ctx.stroke();
+
+    //leg2//
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(710,555);
+    ctx.lineTo(745,560);
+    ctx.stroke();
+
+    //leg3//
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(570,365);
+    ctx.lineTo(570,395);
+    ctx.stroke();
+
+    //leg4//
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(665,610);
+    ctx.lineTo(690,640);
+    ctx.stroke();
+
+    //leg5//
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.moveTo(530, 610);
+    ctx.lineTo(510, 630);
+    ctx.stroke();
+
+    //leg6//
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.moveTo(480, 530);
+    ctx.lineTo(450, 540);
+    ctx.stroke();
+
+    //antennas//
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.moveTo(450, 370);
+    ctx.lineTo(430, 290);
+    ctx.stroke();
+
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.moveTo(410, 410);
+    ctx.lineTo(330, 410);
+    ctx.stroke();
+
+    //circles on antennas//
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(430, 290, 5, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = 'black';
+     ctx.fill();
+
+     var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(330, 410, 5, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = 'black';
+     ctx.fill();
+
+     //sun//
+     var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95, 50, 200, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = 'yellow';
+     ctx.fill();
+
+ </script>
+        
+    
+</body>
+</html>
